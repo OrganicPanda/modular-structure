@@ -1,4 +1,4 @@
-angular.module('mis.core.config', [])
+angular.module('NS.core.config', [])
 
     .config(function() {
 

@@ -17,7 +17,7 @@ module.exports = {
   sharedVars: {
     dest: 'app/core/styling/styling.js',
     src: [
-      // 'app/core/styling/_vars/...scss'
+      'app/core/styling/_vars/example.scss'
     ]
   }
 };

@@ -3,4 +3,6 @@ angular.module('NS.core.styling', [])
   /**
    * !AUTO GENERATED SHARED VARIABLES!
    */
-  .value('SASS', {});
+  .value('SASS', {
+    'example-color': '#FFFFFF'
+  });

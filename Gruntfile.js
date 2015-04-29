@@ -32,9 +32,9 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', defaultTasks);
   grunt.registerTask('start', devTasks);
-  grunt.registerTask('server', function() { require('./server/server.js'); });
-  grunt.registerTask('sharedVars', function() { require('./grunt/shared-vars')(grunt); });
-  grunt.registerTask('layout', function() { require('./grunt/layout')(grunt); });
+  grunt.registerTask('server', require('./server.js'));
+  grunt.registerTask('sharedVars', require('./grunt/shared-vars')(grunt));
+  grunt.registerTask('layout', require('./grunt/layout')(grunt));
 
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-ng-annotate');
