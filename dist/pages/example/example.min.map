@@ -1,1 +1,0 @@
-{"version":3,"file":"example.min.js","sources":["example.js","example-tpl.js"],"names":["angular","module","controller","run","$templateCache","put"],"mappings":"AAAAA,QAAQC,OAAO,uBAEZC,WAAW,gBAAiB,cCF/BF,QAAQC,OAAO,wBAAyB,qCAExCD,QAAQC,OAAO,uCAAwCE,KAAK,iBAAkB,SAASC,GACrFA,EAAeC,IAAI,mCACjB"}
